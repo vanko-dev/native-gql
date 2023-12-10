@@ -44,7 +44,7 @@ export const native = {
             brandId: 15,
             settings: {
               redirectAlias:
-                'c-ft-incomplete-games--o-us-uat--betway-us-oh--usa.dev.sportsbackend.de',
+                'c-ft-incomplete-games--o-us-uat--betway-us-oh--usa.dev.sportsbackend.dev',
               appStoreConfiguration: {
                 useUnifiedApp: true,
                 ios: null,
