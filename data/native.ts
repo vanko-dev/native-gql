@@ -2,9 +2,21 @@ export const native = {
   data: {
     stateLaunchConfigurations: [
       {
-        locationCode: 'US-AZ',
-        displayName: 'Arizona',
-        brandLaunchSettings: [],
+        locationCode: 'US-OH',
+        displayName: 'Incomplete Game',
+        brandLaunchSettings: [
+          {
+            brandId: 15,
+            settings: {
+              redirectAlias:
+                'c-ft-incomplete-games--o-us-uat--betway-us-oh--usa.dev.sportsbackend.dev',
+              appStoreConfiguration: {
+                useUnifiedApp: true,
+                ios: null,
+              },
+            },
+          },
+        ],
       },
       {
         locationCode: 'US-CO',
